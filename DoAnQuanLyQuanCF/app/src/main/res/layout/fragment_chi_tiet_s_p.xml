@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10pt"
+    tools:context=".khachhang.fragment.ChiTietSPFragment">
+
+    <ImageView
+        android:id="@+id/ttanhsp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tttensp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/ttanhsp"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/ttgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/tttensp"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textColor="#FA5A5A"
+        />
+
+
+    <TextView
+        android:id="@+id/txttopping"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Topping"
+        android:layout_below="@+id/ttgia"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        ></TextView>
+    <Spinner
+        android:background="@drawable/spinner"
+        android:padding="15dp"
+        android:id="@+id/spinnertopping"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txttopping"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/txtduong"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Đường"
+        android:layout_below="@+id/ttgia"
+        android:layout_toRightOf="@+id/txttopping"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        ></TextView>
+    <Spinner
+        android:id="@+id/spinnerduong"
+        android:background="@drawable/spinner"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txttopping"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/spinnertopping"
+        />
+    <TextView
+        android:id="@+id/txtda"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Đá"
+        android:layout_below="@+id/ttgia"
+        android:layout_toRightOf="@+id/txtduong"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        ></TextView>
+    <Spinner
+        android:id="@+id/spinnerda"
+        android:background="@drawable/spinner"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txttopping"
+        android:layout_toRightOf="@+id/spinnerduong"
+        />
+    <TextView
+        android:id="@+id/txtsoluong"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Số lượng"
+        android:layout_below="@+id/spinnertopping"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        ></TextView>
+    <Spinner
+        android:id="@+id/spinnersoluong"
+        android:background="@drawable/spinner"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtsoluong"
+
+        />
+    <Button
+        android:id="@+id/btnmua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm vào giỏ"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        />
+
+</RelativeLayout>

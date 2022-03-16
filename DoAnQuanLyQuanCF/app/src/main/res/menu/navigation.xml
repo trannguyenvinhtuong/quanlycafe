@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_all"
+        android:icon="@drawable/baseline_bookmark_24"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_loaisp"
+        android:icon="@drawable/baseline_view_module_24"
+        android:title="@string/title_nganhhang" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/baseline_card_giftcard_24"
+        android:title="@string/title_flashsale" />
+
+    <item
+        android:id="@+id/navigation_giam"
+        android:icon="@drawable/baseline_notifications_24"
+        android:title="@string/title_thongbao" />
+
+    <item
+        android:id="@+id/navigation_qua"
+        android:icon="@drawable/baseline_person_24"
+        android:title="@string/title_taikhoan" />
+</menu>

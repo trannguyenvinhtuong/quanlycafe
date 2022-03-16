@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_weight="10"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+        <ImageView
+            android:id="@+id/ghanhsp"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ten"
+            android:id="@+id/ghtensp"
+            android:textSize="18dp"
+            ></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="topping"
+                android:id="@+id/ghtopping"
+
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="da"
+                android:id="@+id/ghda"
+                android:layout_marginLeft="20dp"
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="duong"
+                android:id="@+id/ghduong"
+                android:layout_marginLeft="20dp"
+                ></TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gia"
+            android:id="@+id/ghgiasp"
+            android:textSize="16dp"
+            android:textColor="#E84F4F"
+            ></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:id="@+id/btntru"
+                android:text="-"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                />
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:id="@+id/btngiatri"
+                android:text="1"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:background="@color/white"
+                android:textColor="#000000"
+                android:theme="@style/Theme.AppCompat.Light"
+
+                />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:id="@+id/btncong"
+                android:text="+"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

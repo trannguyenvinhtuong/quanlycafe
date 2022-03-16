@@ -1,0 +1,51 @@
+/*trang chu*/
+.tensp{
+	font-size: 16px;
+	text-align: center;
+	font-weight: 600;
+	font-family: arial;
+
+}
+.img-sp{
+	width: 100%;
+	height: 190px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.giasp{
+	font-size: 16px;
+	font-weight: 600;
+	text-align: right;
+	color: red;
+	float: right;
+}
+.phanloai{
+	font-size: 16px;
+	font-weight: 600;
+	float: left;
+}
+.btn-mua{
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+	height: 40px;
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+	background-color: #FF0099; 
+	transition: 0.5s
+}
+.btn-mua:hover{
+	background-color: #FF0033;
+	color: white;
+	transition: 0.5s;
+}
+.menu-item{
+	font-size: 18px;
+	font-weight: 600;
+	color: #FF00FF;
+	text-decoration: none;
+}
+.menu-item:hover{
+	color: #808080;
+}

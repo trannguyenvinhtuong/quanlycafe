@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DoAnQuanLyQuanCF</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_nganhhang">Ngành hàng</string>
+    <string name="title_flashsale">Flash sale</string>
+    <string name="title_thongbao">Thông báo</string>
+    <string name="title_taikhoan">Tài khoản</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".khachhang.fragment.TaiKhoanFragment"
+    android:layout_weight="10"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="3"
+       android:orientation="horizontal"
+       >
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+        >
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imgtk"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labeltentk"
+            android:layout_toRightOf="@+id/imgtk"
+            android:text="Ten tai khoan"
+            android:layout_marginLeft="40dp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labeldiachitk"
+            android:layout_toRightOf="@+id/imgtk"
+            android:text="Dia chi"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@+id/labeltentk"
+            android:layout_marginTop="10dp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelsdttk"
+            android:layout_toRightOf="@+id/imgtk"
+            android:text="So dien thoai"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@+id/labeldiachitk"
+            android:layout_marginTop="10dp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelemail"
+            android:layout_toRightOf="@+id/imgtk"
+            android:text="Email"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@+id/labelsdttk"
+            android:layout_marginTop="10dp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelnamsinh"
+            android:layout_toRightOf="@+id/imgtk"
+            android:text="Nam sinh"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@+id/labelemail"
+            android:layout_marginTop="10dp"
+            ></TextView>
+     </RelativeLayout>
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="6"
+       >
+      <ListView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/lsttttk"
+          ></ListView>
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+      android:layout_weight="1"/>
+
+
+</LinearLayout>

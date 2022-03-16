@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".khachhang.fragment.ThayDoiMKFragment"
+    android:padding="30dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labeldoimkc"
+        android:text="Mật khẩu cũ:"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu cũ....."
+        android:id="@+id/txtmkc"
+        android:layout_below="@+id/labeldoimkc"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labeldoimkm"
+        android:text="Mật khẩu mới:"
+        android:layout_below="@+id/txtmkc"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu mới....."
+        android:id="@+id/txtmkm"
+        android:layout_below="@+id/labeldoimkm"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labeldoimkmxn"
+        android:text="Xác nhận mật khẩu:"
+        android:layout_below="@+id/txtmkm"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu mới....."
+        android:id="@+id/txtmkmxn"
+        android:layout_below="@+id/labeldoimkmxn"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btndoimk"
+        android:layout_below="@+id/txtmkmxn"
+        android:text="Thay đổi"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

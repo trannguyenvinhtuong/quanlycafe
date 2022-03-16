@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".khachhang.fragment.ThayDoiTTFragment"
+    android:padding="25dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên: "
+        android:id="@+id/labelttten"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điền tên mới..."
+        android:id="@+id/txtttten"
+        android:layout_below="@id/labelttten"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ: "
+        android:id="@+id/labelttdc"
+        android:layout_below="@+id/txtttten"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điền địa chỉ mới..."
+        android:id="@+id/txtttdc"
+        android:layout_below="@id/labelttdc"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại: "
+        android:id="@+id/labelttsdt"
+        android:layout_below="@+id/txtttdc"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điền số điện thoại mới..."
+        android:id="@+id/txtttsdt"
+        android:layout_below="@id/labelttsdt"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:id="@+id/labelttem"
+        android:layout_below="@+id/txtttsdt"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điền email mới..."
+        android:id="@+id/txtttem"
+        android:layout_below="@id/labelttem"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Năm sinh: "
+        android:id="@+id/labelttns"
+        android:layout_below="@+id/txtttem"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điền năm sinh mới..."
+        android:id="@+id/txtttns"
+        android:layout_below="@id/labelttns"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtttns"
+        android:text="Nếu bạn bỏ trống có nghĩa là không cập nhật"
+        android:textColor="#F41010"
+        android:id="@+id/ttttb"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ttttb"
+        android:text="Thay đổi"
+        android:id="@+id/btnthaydoi"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
